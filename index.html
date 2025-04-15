@@ -35,8 +35,11 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#skills">Skills</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experiences</a>
+                    </li>
                     <!-- <li class="nav-item">
-                        <a class="nav-link" href="#experience">Experience</a>
+                        <a class="nav-link" href="#project">Projects</a>
                     </li> -->
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
@@ -52,7 +55,10 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 my-text">
                     <h2 class="my_title">Hi, it's me San Lai Mon</h2>
-                    <p class="my_desc">I am Web Developer in Yangon , Myanmar</p>
+                    <!-- <p class="my_desc">I am Web Developer in Yangon , Myanmar</p> -->
+                    <p class="typewriter">I'm a
+                        <span data-text="Web Developer., Frontend Developer., Full-Stack Develpoer."></span>
+                    </p>
                 </div>
             </div>
         </div>
@@ -60,123 +66,147 @@
 
     <!-- about section-->
     <section id="about">
-        <div class="container mt-4 pt-4">
+        <div class="container my-3 pt-4">
             <h1 class="text-center">About Me</h1>
-            <div class="row mt-4">
-                <div class="col-lg-4">
-                    <img src="images/myImage.jpg" class="imageAboutPage" alt="">
+            <div class="row justify-content-between mt-4 align-items-center">
+                <!-- Profile Image -->
+                <div class="col-lg-4 text-center">
+                    <img src="images/myImage.jpg" class="img-fluid rounded-circle shadow imageAboutPage"
+                        alt="San Lai Mon" width="250">
                 </div>
 
-                <div class="col-lg-8 mt-5">
+                <!-- About Text -->
+                <div class="col-lg-7 mt-4">
                     <p>
-                        My name is San Lai Mon. I has graduated B.C.Sc from Computer University Taungoo. I want to be a
-                        professional web developer. I interested in reading, writing code and learning other
-                        technologies.
+                        Hello! I'm <strong>San Lai Mon</strong>, a passionate Web Developer based in Yangon, Myanmar.
+                        I graduated with a <strong>B.C.Sc</strong> from Computer University Taungoo.
+                        I enjoy building modern websites and learning new technologies.
                     </p>
-                    <div class="row mt-5">
+                    <p>
+                        I'm always exploring and improving my skills through reading, coding, and hands-on experience.
+                        <!-- I'm currently open to freelance opportunities and collaborations. -->
+                    </p>
+
+                    <!-- Personal Info -->
+                    <div class="row mt-4">
                         <div class="col-md-6">
-                            <ul>
-                                <li>Name: San Lai Mon</li>
-                                <li>Birthday: 28 November 1995</li>
-                                <li>Phone: 09452599346</li>
-                                <li>City: Hlaing Township, Yangon, Myanmar</li>
+                            <ul class="list-unstyled">
+                                <li><strong>Name:</strong> San Lai Mon</li>
+                                <li><strong>Birthday:</strong> 28 November 1995</li>
+                                <li><strong>Phone:</strong> 09452599346</li>
+                                <li><strong>City:</strong> Hlaing Township, Yangon</li>
                             </ul>
                         </div>
                         <div class="col-md-6">
-                            <ul>
-                                <li>Occupation: Web Developer</li>
-                                <li>Degree: B.C.Sc</li>
-                                <li>Email: sanlaimon.cu@gmail.com</li>
-                                <li>Freelance: Available</li>
+                            <ul class="list-unstyled">
+                                <li><strong>Occupation:</strong> Web Developer</li>
+                                <li><strong>Degree:</strong> B.C.Sc</li>
+                                <li><strong>Email:</strong> sanlaimon.cu@gmail.com</li>
+                                <li><strong>Freelance:</strong> Available</li>
                             </ul>
                         </div>
                     </div>
-                    <div class="row mt-5">
-                        <a href="images/sanlaimon_cv.pdf" id="downloadPdf" target="_blank">Download My CV Form</a>
+
+                    <!-- CV Download -->
+                    <div class="mt-4">
+                        <a href="images/San-lai-mon(cv).pdf" class="btn btn-primary" target="_blank" download>
+                            <i class="bi bi-download"></i> Download My CV
+                        </a>
                     </div>
                 </div>
             </div>
+        </div>
     </section>
 
     <!-- Skills Section -->
     <section id="skills" class="skills">
-        <div class="container" data-aos="fade-up">
+        <div class="container my-3 pt-4" data-aos="fade-up">
 
             <div class="section-title">
                 <h2 class="text-center font-italic">Skills</h2>
             </div>
 
-            <div class="row skills-content">
-                <div class="col-lg-6">
+            <div class="row justify-content-between skills-content">
+                <div class="col-lg-5">
                     <div class="progress">
                         <span class="skill">HTML <i class="val">80%</i></span>
                         <div class="progress">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
 
                     <div class="progress">
                         <span class="skill">CSS <i class="val">80%</i></span>
                         <div class="progress">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
 
                     <div class="progress">
                         <span class="skill">Bootstrap <i class="val">85%</i></span>
                         <div class="progress">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 85%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                style="width: 85%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
 
                     <div class="progress">
                         <span class="skill">JavaScript <i class="val">80%</i></span>
                         <div class="progress">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
 
                     <div class="progress">
                         <span class="skill">Jquery <i class="val">80%</i></span>
                         <div class="progress">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 70%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                style="width: 70%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-6">
+                <div class="col-lg-5">
                     <div class="progress">
                         <span class="skill">PHP <i class="val">80%</i></span>
                         <div class="progress">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
 
                     <div class="progress">
                         <span class="skill">WordPress/CMS <i class="val">60%</i></span>
                         <div class="progress">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 60%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                style="width: 60%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
 
                     <div class="progress">
                         <span class="skill">Laravel <i class="val">90%</i></span>
                         <div class="progress">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
 
                     <div class="progress">
                         <span class="skill">Vue <i class="val">75%</i></span>
                         <div class="progress">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
 
                     <div class="progress">
                         <span class="skill">React <i class="val">60%</i></span>
                         <div class="progress">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 70%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                style="width: 70%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                 </div>
@@ -184,9 +214,48 @@
         </div>
     </section>
 
+    <!-- Experience -->
+    <section id="experience">
+        <div class="container my-3 pt-4" data-aos="fade-up">
+            <div class="section-title">
+                <h2 class="text-center font-italic">Experiences</h2>
+            </div>
+            <div class="row justify-content-between">
+                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 exp-group">
+                    <ul>
+                        <li>
+                            <h5>Cool Idea Co.Ltd</h5>
+                            <h6><strong>Intern as PHP Developer</strong></h6>
+                            <p><small>From May 2018 - To July 2018</small></p>
+                        </li>
+                        <li>
+                            <h5>Agga.io Co.Ltd</h5>
+                            <h6><strong>Senior Developer</strong></h6>
+                            <p><small>July 2019 - November 2022</small></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 exp-group">
+                    <ul>
+                        <li>
+                            <h5>SKG Co.Ltd</h5>
+                            <h6><strong>Senior Developer</strong></h6>
+                            <p><small>From December, 2022 - To April, 2024</small></p>
+                        </li>
+                        <li>
+                            <h5>RextLabo Co.Ltd</h5>
+                            <h6><strong>Senior Developer</strong></h6>
+                            <p><small>From May, 2024 - To March, 2025</small></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- contact section-->
     <section id="contact">
-        <div class="container mt-3 contactContent">
+        <div class="container  my-3 pt-4 contactContent">
             <h1 class="text-center">Contact Me</h1>
 
             <div class="row mt-4">

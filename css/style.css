@@ -1,6 +1,14 @@
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
-    background-color: black;
+    background-color: rgb(45, 226, 219);
+}
+
+.navbarScroll.navbarDark .nav-link:hover {
+    color: #333 !important;
+}
+
+.navbarScroll.navbarDark a {
+    color:  white !important;
 }
 
 /* my background image */
@@ -13,7 +21,7 @@
 
 /* text css above my image*/
 .my_title {
-    font-size: 4.5rem;
+    font-size: 2rem;
 }
 
 .my_desc {
@@ -93,4 +101,47 @@
 #footer {
     background-color: #808080;
     text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px;
+}
+
+.typewriter {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: rgb(45, 226, 219);
+    font-weight: bold;
+    position: relative;
+    margin: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 40px;
+}
+
+.typewriter span {
+    color: var(--text-color);
+    text-transform: uppercase;
+    padding: 10px;
+    border-right: solid var(--text-color) 10px; 
+    animation: cursor 1s ease-in-out infinite;
+}
+
+@keyframes cursor {
+    from { border-color: var(--text-color); }
+    to { border-color: transparent; }
+}
+
+@media (max-width: 576px) {
+    .typewriter { font-size: 24px; }
+}
+@media (max-width: 768px) {
+    .typewriter { font-size: 36px; }
+}
+.exp-group {
+    margin-left: 8%;
+}
+.exp-group > ul > li {
+    margin-bottom: 5%;
 }
