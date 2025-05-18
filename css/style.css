@@ -4,24 +4,43 @@
 }
 
 .navbarScroll.navbarDark .nav-link:hover {
-    color: #333 !important;
+    /* color: #333 !important; */
+    font-weight: bold;
 }
 
 .navbarScroll.navbarDark a {
     color:  white !important;
 }
 
+.navbar-dark:hover {
+    background-color: rgb(45, 226, 219) !important;
+}
+
+.navbar-dark .navbar-brand {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    font-weight: bold;
+}
+
 /* my background image */
 .bgimage {
     height: 100vh;
-    background: url('../images/myImage.jpg');
+    background: url('../images/working-place1.jpg');
     background-size: cover;
     position: relative;
 }
 
 /* text css above my image*/
-.my_title {
+.my-title {
     font-size: 2rem;
+    margin-top: 5rem;
 }
 
 .my_desc {
